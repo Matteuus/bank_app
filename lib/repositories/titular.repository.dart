@@ -5,7 +5,6 @@ import 'package:bank_app/models/estado.model.dart';
 import 'package:bank_app/models/titular.model.dart';
 import 'package:bank_app/models/transacao.model.dart';
 import 'package:dio/dio.dart';
-import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
 import 'package:mobx/mobx.dart';
 

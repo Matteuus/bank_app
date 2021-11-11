@@ -1,4 +1,4 @@
-import 'package:bank_app/pages/home.page.dart';
+import 'package:bank_app/pages/splash.page.dart';
 import 'package:bank_app/service_locator.dart';
 import 'package:bank_app/utils/theme.dart';
 import 'package:device_preview/device_preview.dart';
@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
         title: 'Calendário',
         debugShowCheckedModeBanner: false,
         theme: themeData(),
-        home: const HomePage(),
+        home: const SplashPage(),
       ),
     );
   }

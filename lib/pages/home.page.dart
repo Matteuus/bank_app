@@ -132,7 +132,8 @@ class _HomePageState extends State<HomePage> {
                         physics: const BouncingScrollPhysics(),
                         itemCount: 5,
                         itemBuilder: (context, index) {
-                          return const CardTransactionsWidget(
+                          return CardTransactionsWidget(
+                              idTransacao: index.toString(),
                               isLoading: true,
                               nomeTransacao: 'Transação',
                               logo: 'assets/images/master_card.png',
@@ -146,6 +147,9 @@ class _HomePageState extends State<HomePage> {
                         itemBuilder: (context, index) {
                           return CardTransactionsWidget(
                               isLoading: false,
+                              idTransacao: titularController
+                                  .transacoes[index].id
+                                  .toString(),
                               nomeTransacao: titularController
                                   .transacoes[index].nome
                                   .toString(),

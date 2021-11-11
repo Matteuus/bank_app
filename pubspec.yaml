@@ -23,6 +23,7 @@ dependencies:
   connectivity:  
   flutter_svg: 
   shimmer:
+  animate_do:
   cupertino_icons: ^1.0.2
 
 dev_dependencies:

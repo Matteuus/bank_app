@@ -48,9 +48,12 @@ class UserInformationWidget extends StatelessWidget {
         children: [
           Hero(
             tag: 'userName',
-            child: Text(
-              "Olá,\n$userName",
-              style: TextStyle(fontSize: 32.sp, fontWeight: FontWeight.bold),
+            child: SizedBox(
+              width: ScreenUtil().screenWidth / 2,
+              child: Text(
+                "Olá,\n$userName",
+                style: TextStyle(fontSize: 32.sp, fontWeight: FontWeight.bold),
+              ),
             ),
           ),
           Hero(
