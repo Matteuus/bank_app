@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
         [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
     return ScreenUtilInit(
       designSize: const Size(750, 1334),
-      builder: () => GetMaterialApp(
+      builder: (_, widget) => GetMaterialApp(
         title: 'Calendário',
         debugShowCheckedModeBanner: false,
         theme: themeData(),

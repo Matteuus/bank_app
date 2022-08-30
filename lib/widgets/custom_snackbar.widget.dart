@@ -23,7 +23,7 @@ customSnackBar(String title, String message, int type) {
     colorText: Colors.white,
     duration: const Duration(seconds: 3),
     isDismissible: true,
-    dismissDirection: SnackDismissDirection.HORIZONTAL,
+    dismissDirection: DismissDirection.horizontal,
     forwardAnimationCurve: Curves.fastLinearToSlowEaseIn,
   );
 }
