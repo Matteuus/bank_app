@@ -36,7 +36,7 @@ class _UserPageState extends State<UserPage> {
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(256.w),
                 child: Image.network(
-                  "https://scontent-for1-1.cdninstagram.com/v/t51.2885-19/s150x150/244344179_146849304327899_8839080734605772503_n.jpg?_nc_ht=scontent-for1-1.cdninstagram.com&_nc_ohc=wGlG1HXXLXoAX_V9M70&tn=kAQ_wxD31FyhbEQi&edm=ABfd0MgBAAAA&ccb=7-4&oh=d15210f82e3df83529dfc3324b3581c6&oe=61917B5C&_nc_sid=7bff83",
+                  "https://scontent.fjdo10-2.fna.fbcdn.net/v/t39.30808-6/274187521_4912519742159294_4555476668677604608_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=qlQvt5q5QroAX_hLDKB&_nc_oc=AQkI7AYlQo_-jFrYtr-8KZVaYp7t8z-Kni3D6XD4cFh6Ytxz7jPwZEgglzWYnFuD6VO2WOirW0yLbIvyqUHPBd6Z&tn=bqWBRZZsSetgIerC&_nc_ht=scontent.fjdo10-2.fna&oh=00_AfDarZJ5hQ4DggmNgn_bj1Fwkvdbu3ZdGQjcTp-ZvEr-Zw&oe=637CA04E",
                   fit: BoxFit.cover,
                   height: 256.h,
                 ),
